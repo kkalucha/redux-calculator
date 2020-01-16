@@ -1,0 +1,22 @@
+.display {
+	background-color: #999999;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: lighter;
+	height: 80px;
+	padding: 20px 15px 5px 0;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+
+.display__status {
+	display: flex;
+	justify-content: space-between;
+	left: 4px;
+	position: absolute;
+	top: 3px;
+	width: 55px;
+	font-size: 20px;
+}
